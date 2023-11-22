@@ -1,7 +1,7 @@
 import { Form, redirect, useNavigate, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { updateTask } from "../redux/slices/tasksSlice";
-import store from '../redux/store';
+import store from '../redux/slice';
 
 export async function action({ request, params }) {
     const formData = await request.formData();

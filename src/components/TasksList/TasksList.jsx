@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import Task from "./Task/Task";
+import Task from "../Task/Task";
 
 function TasksList() {
     const tasks = useSelector(state => state.tasksReducer);

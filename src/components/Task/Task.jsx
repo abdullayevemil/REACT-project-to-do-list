@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { deleteTask } from "../../../redux/slices/tasksSlice";
+import { deleteTask } from "../../redux/slices/tasksSlice";
 
 function Task({ taskData }) {
     const dispatch = useDispatch();
